@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name:mall-eureka-server
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    register-with-eureka: false #不向注册中心注册自己
+    fetch-registry: false #不去注册中心查询服务
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
