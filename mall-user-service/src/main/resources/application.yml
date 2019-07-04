@@ -1,0 +1,13 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: user-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8080/eureka/
+  instance:
+    instance-id: mall-user-service   #自定义服务名称信息
+    prefer-ip-address: true     #访问路径可以显示IP地址
+
