@@ -1,0 +1,18 @@
+spirng:
+  application:
+    name: mall-config-server
+cloud:
+  config:
+    server:
+      git:
+        uri:
+        username:
+        password:
+        search-paths:
+server:
+  port: 8079
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8080/eureka/
+
