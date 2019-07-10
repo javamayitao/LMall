@@ -11,7 +11,7 @@ Mall
 联系邮件：1012056369@qq.com QQ群：566277771（申请入群关键字"mall"） 
 
 微信群
-https://github.com/mallorgan/LMall/blob/dev/LMall.jpg
+![Image text](https://github.com/mallorgan/LMall/blob/dev/LMall.jpg)
 
 开发分支origin/dev
 
