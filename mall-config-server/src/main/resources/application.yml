@@ -5,10 +5,10 @@ cloud:
   config:
     server:
       git:
-        uri:
-        username:
-        password:
-        search-paths:
+        uri: https://github.com/wanghengGit/config-center-for-snailmall
+        username: 1012056369@qq.com
+        password: *
+        search-paths: user-service-config,category-service-config,product-service-config,order-service-config,keygen-service-config,shipping-service-config,cart-service-config,gateway-service-config
 server:
   port: 8079
 eureka:
